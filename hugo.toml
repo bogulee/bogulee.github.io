@@ -1,0 +1,131 @@
+baseURL = "https://bogulee.github.io/"
+title = "bogulee's Dev Log"
+theme = "LoveIt"
+defaultContentLanguage = "ko"
+locale = "ko-KR"
+languageName = "한국어"
+hasCJKLanguage = true
+enableRobotsTXT = true
+enableEmoji = true
+
+[pagination]
+  pagerSize = 8
+
+[menu]
+  [[menu.main]]
+    weight = 1
+    identifier = "posts"
+    name = "글"
+    url = "/posts/"
+  [[menu.main]]
+    weight = 2
+    identifier = "categories"
+    name = "카테고리"
+    url = "/categories/"
+  [[menu.main]]
+    weight = 3
+    identifier = "tags"
+    name = "태그"
+    url = "/tags/"
+  [[menu.main]]
+    weight = 4
+    identifier = "about"
+    name = "소개"
+    url = "/about/"
+
+[params]
+  defaultTheme = "auto"
+  gitRepo = "https://github.com/bogulee/bogulee.github.io"
+  dateFormat = "2006-01-02"
+  title = "bogulee's Dev Log"
+  description = "학습 과정과 미니 프로젝트를 기록하는 기술 블로그"
+  images = ["/images/avatar.png"]
+
+  [params.author]
+    name = "bogulee"
+    link = "https://github.com/bogulee"
+
+  [params.header]
+    desktopMode = "fixed"
+    mobileMode = "auto"
+    [params.header.title]
+      name = "bogulee's Dev Log"
+      typeit = false
+
+  [params.footer]
+    enable = true
+    hugo = true
+    copyright = true
+    author = true
+    since = 2026
+
+  [params.app]
+    title = "bogulee's Dev Log"
+    noFavicon = true
+    themeColor = "#ffffff"
+
+  [params.home]
+    rss = 10
+    [params.home.profile]
+      enable = true
+      avatarURL = "/images/avatar.png"
+      title = "bogulee's Dev Log"
+      subtitle = "배우고, 만들고, 문제를 해결한 과정을 기록합니다."
+      typeit = true
+      social = true
+    [params.home.posts]
+      enable = true
+      paginate = 6
+
+  [params.social]
+    GitHub = "bogulee"
+
+  [params.search]
+    enable = true
+    type = "fuse"
+    contentLength = 4000
+    maxResultLength = 10
+    snippetLength = 40
+    highlightTag = "em"
+    absoluteURL = false
+    [params.search.fuse]
+      minMatchCharLength = 2
+      threshold = 0.3
+
+  [params.page]
+    hiddenFromHomePage = false
+    hiddenFromSearch = false
+    lightgallery = true
+    linkToMarkdown = false
+    rssFullText = true
+    [params.page.toc]
+      enable = true
+      keepStatic = false
+      auto = true
+    [params.page.code]
+      copy = true
+      maxShownLines = 50
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "Markdown"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+
+[caches]
+  [caches.images]
+    dir = ":cacheDir/images"
