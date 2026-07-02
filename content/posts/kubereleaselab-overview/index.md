@@ -1,7 +1,7 @@
 +++
 title = 'Kubernetes 배포 과정을 이해하기 위한 KubeReleaseLab (00)'
-date = 2026-07-03T10:00:00+09:00
-draft = true
+date = 2026-07-03T06:00:00+09:00
+draft = false
 description = 'Kubernetes와 DevOps의 동작 원리를 직접 구성하고 검증하기 위한 KubeReleaseLab 프로젝트의 배경과 계획을 정리합니다.'
 categories = ['Project']
 tags = ['KubeReleaseLab', 'Kubernetes', 'DevOps']

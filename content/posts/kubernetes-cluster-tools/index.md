@@ -1,7 +1,7 @@
 +++
 title = 'Kubernetes 클러스터는 어떻게 만들어질까: 구성 요소와 구축 도구의 역할'
-date = 2026-07-03T11:00:00+09:00
-draft = true
+date = 2026-07-03T07:00:00+09:00
+draft = false
 description = 'Kubernetes의 기본 구조와 VirtualBox, Vagrant, containerd, kubeadm, Kubespray, kind 등 클러스터 구축 과정에 등장하는 도구의 역할을 구분합니다.'
 categories = ['Infrastructure']
 tags = ['Kubernetes', 'kubeadm', 'Kubespray', 'Vagrant', 'containerd']
