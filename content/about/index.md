@@ -10,7 +10,8 @@ draft = false
 
 프로젝트 코드는 [GitHub](https://github.com/bogulee)에서 확인할 수 있습니다.
 
-**Tech Stack**
+### Tech Stack
+
 
 <p class="tech-badges">
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes">
