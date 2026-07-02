@@ -38,7 +38,7 @@ enableEmoji = true
   gitRepo = "https://github.com/bogulee/bogulee.github.io"
   dateFormat = "2006-01-02"
   title = "bogu's Log🌟"
-  description = "학습 과정을 기록하는 블로그"
+  description = "학습 과정을 기록하는 블로그📚"
   images = ["/images/avatar.png"]
 
   [params.author]
@@ -69,8 +69,8 @@ enableEmoji = true
     [params.home.profile]
       enable = true
       avatarURL = "/images/avatar.png"
-      title = "bogu's Dev Log🌟"
-      subtitle = "배우고 만들고 문제를 해결한 과정을 기록합니다.🤗"
+      title = "bogu's Log🌟"
+      subtitle = "배우고 만들고 문제를 해결한 과정을 기록합니다.🍀"
       typeit = true
       social = true
     [params.home.posts]

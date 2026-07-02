@@ -12,51 +12,19 @@ draft = false
 
 ## Tech Stack
 
-<div class="tech-stack" role="list" aria-label="기술 스택">
-  <div class="tech-item" role="listitem"><img src="https://cdn.simpleicons.org/kubernetes/326CE5" alt="Kubernetes"><span>Kubernetes</span></div>
-  <div class="tech-item" role="listitem"><img src="https://cdn.simpleicons.org/amazonwebservices/FF9900" alt="AWS"><span>AWS</span></div>
-  <div class="tech-item" role="listitem"><img src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker"><span>Docker</span></div>
-  <div class="tech-item" role="listitem"><img src="https://cdn.simpleicons.org/terraform/844FBA" alt="Terraform"><span>Terraform</span></div>
-  <div class="tech-item" role="listitem"><img src="https://cdn.simpleicons.org/linux/FCC624" alt="Linux"><span>Linux</span></div>
-  <div class="tech-item" role="listitem"><img src="https://cdn.simpleicons.org/ansible/EE0000" alt="Ansible"><span>Ansible</span></div>
-  <div class="tech-item" role="listitem"><img src="https://cdn.simpleicons.org/argo/EF7B4D" alt="Argo CD"><span>Argo CD</span></div>
-  <div class="tech-item" role="listitem"><img src="https://cdn.simpleicons.org/githubactions/2088FF" alt="GitHub Actions"><span>GitHub Actions</span></div>
-  <div class="tech-item" role="listitem"><img src="https://cdn.simpleicons.org/jenkins/D24939" alt="Jenkins"><span>Jenkins</span></div>
-  <div class="tech-item" role="listitem"><img src="https://cdn.simpleicons.org/prometheus/E6522C" alt="Prometheus"><span>Prometheus</span></div>
-  <div class="tech-item" role="listitem"><img src="https://cdn.simpleicons.org/grafana/F46800" alt="LGTM Stack"><span>LGTM Stack</span></div>
-  <div class="tech-item" role="listitem"><img src="https://cdn.simpleicons.org/opentelemetry/000000" alt="OpenTelemetry"><span>OpenTelemetry</span></div>
-  <div class="tech-item" role="listitem"><img src="https://cdn.simpleicons.org/python/3776AB" alt="Python"><span>Python</span></div>
-  <div class="tech-item" role="listitem"><img src="https://cdn.simpleicons.org/gnubash/4EAA25" alt="Bash"><span>Bash</span></div>
-</div>
-
-<style>
-.tech-stack {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
-  gap: 1rem;
-  margin: 1.5rem 0;
-}
-
-.tech-item {
-  display: flex;
-  min-height: 100px;
-  padding: 1rem .5rem;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: .65rem;
-  border: 1px solid rgba(128, 128, 128, .25);
-  border-radius: 10px;
-  text-align: center;
-}
-
-.tech-item img {
-  width: 42px;
-  height: 42px;
-}
-
-.tech-item span {
-  font-size: .85rem;
-  line-height: 1.25;
-}
-</style>
+<p class="tech-badges">
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes">
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white" alt="Terraform">
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
+  <img src="https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white" alt="Ansible">
+  <img src="https://img.shields.io/badge/Argo_CD-EF7B4D?style=flat-square&logo=argo&logoColor=white" alt="Argo CD">
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
+  <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" alt="Jenkins">
+  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" alt="Prometheus">
+  <img src="https://img.shields.io/badge/LGTM_Stack-F46800?style=flat-square&logo=grafana&logoColor=white" alt="LGTM Stack">
+  <img src="https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white" alt="OpenTelemetry">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash">
+</p>
