@@ -1,0 +1,48 @@
+/* 기술 글의 한글 본문 가독성을 위한 사용자 스타일 */
+.single .content {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 17px;
+  line-height: 1.85;
+  letter-spacing: -0.01em;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+.single .content p {
+  margin: 1.15rem 0;
+}
+
+.single .content h2 {
+  margin-top: 2.8rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.single .content h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+}
+
+.single .content strong {
+  font-weight: 700;
+}
+
+.single .content li {
+  margin: 0.35rem 0;
+  line-height: 1.75;
+}
+
+.single .content code,
+.single .content pre {
+  font-family: "D2Coding", Consolas, monospace;
+  word-break: normal;
+}
+
+@media (max-width: 680px) {
+  .single .content {
+    font-size: 16px;
+    line-height: 1.8;
+    word-break: normal;
+  }
+}

@@ -105,6 +105,10 @@ enableEmoji = true
     [params.page.code]
       copy = true
       maxShownLines = 50
+    [params.page.library]
+      [params.page.library.css]
+        notoSansKR = "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap"
+        readability = "css/readability.css"
 
 [markup]
   [markup.highlight]
