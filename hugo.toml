@@ -61,8 +61,11 @@ enableEmoji = true
 
   [params.app]
     title = "bogu's Log🌟"
-    noFavicon = true
+    noFavicon = false
+    # LoveIt의 설정명은 svgFavicon이지만 일반 PNG 경로도 사용할 수 있습니다.
+    svgFavicon = "/favicon.png"
     themeColor = "#ffffff"
+    iconColor = ""
 
   [params.home]
     rss = 10
@@ -70,7 +73,7 @@ enableEmoji = true
       enable = true
       avatarURL = "/images/avatar.png"
       title = "bogu's Log🌟"
-      subtitle = "배우고 만들고 문제를 해결한 과정을 기록합니다.🍀"
+      subtitle = "배우고 만들고 문제를 해결한 과정을 기록합니다."
       typeit = true
       social = true
     [params.home.posts]
